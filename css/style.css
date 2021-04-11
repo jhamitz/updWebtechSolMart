@@ -230,14 +230,14 @@ nav ul li ul li ul li:hover {
 /* Background color change on Hover */
 
 nav li a:hover {
-    color: #fc301e;
-    border-bottom: 2px solid #fc301e;
+    color: blue;
+    border-bottom: 2px solid blue;
 
 }
 
 .menu li.active a {
-    color: #fc301e;
-    border-bottom: 2px solid #fc301e;
+    color:blue;
+    border-bottom: 2px solid blue;
 }
 
 /* Hide Dropdowns by Default

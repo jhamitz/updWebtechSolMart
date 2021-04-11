@@ -26,6 +26,125 @@
      <!---new--->
      <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
   <!-- //Fonts -->
+  <style>
+     .heading-agileinfo {
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 30px;
+    margin-bottom: 2.5em;
+    text-align: center;
+    color: #f14156;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0;;
+}
+
+  .contact-form {
+  position: relative;
+  margin-top: 3em;
+}
+
+.left_form {
+  float: left;
+  width: 48%;
+}
+
+.right_form {
+  float: left;
+  width: 48%;
+  margin-left: 3.8%;
+}
+
+.contact-form div {
+  padding: 5px 0;
+}
+
+.contact-form span label {
+  display: block;
+  font-size: 0.9em;
+  color: #555;
+  padding-bottom: 5px;
+  font-weight: 600;
+  margin: 0.5em 0;
+  letter-spacing: 1px;
+}
+
+.contact-form input[type="text"],
+
+.contact-form textarea {
+  padding: 16px 15px;
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #464646;
+  font-size: 1em;
+  box-shadow: inset 0px 0px 3px #999;
+  -webkit-box-shadow: inset 0px 0px 3px #999;
+  -moz-box-shadow: inset 0px 0px 3px #999;
+  -o-box-shadow: inset 0px 0px 3px #999;
+  -webkit-appearance: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#sel
+{
+  padding: 16px 15px;
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  color: #464646;
+  font-size: 1em;
+  box-shadow: inset 0px 0px 3px #999;
+  -webkit-box-shadow: inset 0px 0px 3px #999;
+  -moz-box-shadow: inset 0px 0px 3px #999;
+  -o-box-shadow: inset 0px 0px 3px #999;
+  -webkit-appearance: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 212px;
+}
+
+.myButton {
+  background: #f14156;
+  color: #fff;
+  font-size: 1em;
+  padding: 17px 0;
+  border: none;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  float: right;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+}
+
+.myButton:hover {
+  background: #212121;
+}
+.w3l-index3 ul.w3l-right-book li {
+    margin-bottom: 10px;
+    color: var(--title-color);
+    font-size: 18px;
+    list-style: inside;
+    font-weight: 400;
+    list-style-type: none;
+}
+  </style>
    </head>
    <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
       <!-- LOADER -->
@@ -41,14 +160,15 @@
                 <!-- nav -->
                 <nav class="py-2 d-lg-flex">
                     <div id="logo">
-                          <img src="images/logoThirteen.png" alt="logo" style="width:200px;">
+                          <img src="images/logoThirteen.jpeg" alt="logo" style="width:200px;">
                         </a>
                     </div>
                     <label for="drop" class="toggle">Menu</label>
                     <input type="checkbox" id="drop" />
                     <ul class="menu ml-auto">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                     <li class="active"><a href="Index.html">Home</a></li>
+                        <li class=""><a href="About.html">About</a></li>
+         
                         <li>
                             <!-- First Tier Drop Down -->
                             <!--<label for="drop-2" class="toggle">Ecommerce <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
@@ -65,9 +185,9 @@
                             <a href="#">Digital Marketting<span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-3" />
                             <ul class="inner-ul">
-                                <li><a href="seo1.html">Search Engine Optimization</a></li>
+                                <li><a href="Search_Engine_Optimization.html">Search Engine Optimization</a></li>
                                 <li><a href="Socialmedia.html">Social Media Optimization</a></li>
-                                <li><a href="payperclick.html">Pay Per Click</a></li>
+                                <li><a href="Payper_click.html">Pay Per Click</a></li>
                             </ul>
                         </li>
                         
@@ -77,9 +197,9 @@
                             <a href="#">Services<span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-4"/>
                             <ul class="inner-ul">
-                                <li><a href="internet-marketting.html">Internet Marketting</a></li>
+                                <li><a href="Internet_Marketting.html">Internet Marketting</a></li>
                                 <li><a href="Website_Development.html">Website Development</a></li>
-                                <li><a href="websitedesign.html">Web Design</a></li>
+                                <li><a href="Website_Design.html">Web Design</a></li>
                                 <li><a href="Mob_App.html">Mobile App Development</a></li>
                             </ul>
                         </li>
@@ -89,14 +209,15 @@
                             <a href="#">Hire Expert <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-5" />
                             <ul class="inner-ul">
-                                <li><a href="Magentohire.html">Hire Megento Developer</a></li>
-                                <li><a href="phphire.html">Hire Php Developer</a></li>
-                                <li><a href="Wphire.html">Hire Wordpress Developer</a></li>
+                                <li><a href="Magento_Hire.html">Hire Megento Developer</a></li>
+                                <li><a href="Php_Hire.html">Hire Php Developer</a></li>
+                                <li><a href="Wordpress_hire.html">Hire Wordpress Developer</a></li>
                             </ul>
                         </li>
-                        
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Ecommerce.html">Ecommerce</a></li>
+                    <!--<li><a href="Blog.html">Blog</a></li>-->
+                        <li><a href="Contact.html">Contact</a></li>
+
                     </ul>
 
                 </nav>
@@ -437,54 +558,75 @@
                </div>
          </div>
          <!-- section -->
-         <div class="section contact_section">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-6 theme_color_bg fc3726 padding_0">
-                     <div class="full">
-                        <div class="row">
-                           <div class="col-sm-12 col-md-10 offset-lg-1">
-                              <div class="full contact_form">
-                                 <form class="contact_form_inner" action="#">
-                                    <fieldset>
-                                       <div class="field">
-                                          <input type="text" name="name" placeholder="Your name" />
-                                       </div>
-                                       <div class="field">
-                                          <input type="email" name="email" placeholder="Email" />
-                                       </div>
-                                       <div class="field">
-                                          <input type="text" name="phone_no" placeholder="Phone number" />
-                                       </div>
-                                       <div class="field">
-                                          <textarea placeholder="Message"></textarea>
-                                       </div>
-                                       <div class="field center">
-                                          <button class="margin-top_30">SEND</button>
-                                       </div>
-                                    </fieldset>
-                                 </form>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+         <div class="container">
+            <div class="contact-form">
+                   <form method="post" action="#">
+                   <div class="left_form">
+                    <div>
+                      <span><label class="txt">Name</label></span>
+                      <span><input name="userName" type="text" class="textbox" required=""></span>
+                    </div>
+                    <div>
+                      <span><label class="txt">E-mail</label></span>
+                      <span><input name="userEmail" type="text" class="textbox" required=""></span>
+                    </div>
+                    <div>
+                      <span><label class="txt">Copany_name</label></span>
+                      <span><input name="userPhone" type="text" class="textbox" required=""></span>
+                    </div>
+                    <div>
+                      <span><label class="txt">Contact_no</label></span>
+                      <span><input name="userPhone" type="text" class="textbox" required=""></span>
+                    </div>
+                    <div>
+                      <span><label class="txt">Hire type</label></span>
+                       <span>
+                      <select name="userPhone" class="textbox" type="select" id ="sel" required="">
+                        <option selected>Select....</option>
+                        <option value="full">Full Time</option>
+                        <option value="heading-agileinfo">Half Time</option>
+                        <option value="hour">Hour Based</option>
+                      </select>
+                    </span>
+                    </div>
                   </div>
-                  <div class="col-md-6 padding_0">
-                     <div class="full">
-                        <div class="row">
-                           <div class="col-sm-12">
-                              <div class="full map_section">
-                                 <div id="map">
-                                    <div id="googleMap" style="width:100%;height:440px;"></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="right_form">
+                       <div>
+                      <span><label class="txt">Start</label></span>
+                       <span>
+                       <select name="userPhone" class="textbox" type="select" id ="sel" required="">
+                        <option selected>Select.... </option>
+                        <option value="Month">Within a Month</option>
+                        <option value="week1">Within one week</option>
+                        <option value="week2">Within two week</option>
+                        <option value="week3">Within three week</option>
+                        <option value="immediate">immediate</option>
+                      </select>
+                    </span>
+                    </div>
+                    <div>
+                      <span><label class="txt">Service for</label></span>
+                       <span>
+                       <select name="userPhone" class="textbox" type="select" id ="sel" required="">
+                        <option selected>Select.... </option>
+                        <option value="three">For Three Weeks</option>
+                        <option value="one">For 1 Month</option>
+                        <option value="More">For More Then one Month</option>
+                      </select>
+                    </span>
+                    </div>
+                    <div>               
+                      <span><label class="txt">Message</label></span>
+                      <span><textarea name="Message" required=""> </textarea></span>
+                    </div>
+                     <div>
+                      <span><input type="submit" value="Hire Now" class="myButton"></span>
+                    </div>
                   </div>
-               </div>
-            </div>
-         </div>
+                  <div class="clearfix"></div>
+                </form>
+              </div>
+          </div>
          <!-- end section -->
          <!-- Start Footer -->
          <footer class="footer-box">
@@ -502,19 +644,19 @@
                   
                   <div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
                      <div class="full footer_blog f_icon_1">
-                         <p>Address<br><small>151 Ho Ba Kien Street,<br>Ward 15, District 10,<br>Ho Chi Minh City, Delhi</small></p>
+                         <p>Address<br><small>Swaroop Nagar,Badli<br>North West Delhi,<br>Delhi, 110042</small></p>
                      </div>
                   </div>
 
                   <div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
                      <div class="full footer_blog f_icon_2">
-                        <p>Phone<br><small>+5645444645<br>+56566566t67<br>Monday - Sunday<br>08:00 am - 05:00 pm</small></p>
+                        <p>Phone<br><small>+91 9554467002<br>>Monday - Sunday<br>08:00 am - 05:00 pm</small></p>
                      </div>
                   </div>
 
                   <div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
                      <div class="full footer_blog f_icon_3">
-                         <p>Email<br><small>support@sofbox.com<br>24 X 7 online support</small></p>
+                         <p>Email<br><small> webtechsolutionmart@gmail.com<br>24 X 7 online support</small></p>
                      </div>
                   </div>
 
